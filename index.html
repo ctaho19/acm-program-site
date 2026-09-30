@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Automated Control Monitoring</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/sites-labels.js" defer></script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
 <header class="topbar" data-sites="Site header · Logo + site name · Top navigation">
   <div class="wrap">
-    <a class="brand" href="index.html"><span class="logo">LOGO</span><span>Automated Control Monitoring</span></a>
+    <a class="brand" href="index.html"><span class="logo" title="Replace with approved logo">ACM</span><span>Automated Control Monitoring</span></a>
     <nav class="nav">
       <a href="index.html" aria-current="page">Home</a>
       <a href="control-owners.html">For Control Owners</a>
@@ -22,6 +23,8 @@
     </nav>
   </div>
 </header>
+
+<main id="main">
 
 <section class="hero" data-sites="Section · Background image (solid navy) · Text box + Button">
   <div class="wrap">
@@ -39,16 +42,21 @@
     <div>
       <p class="meta">The program</p>
       <h2>What is automated control monitoring?</h2>
-      <p class="intro" style="margin-bottom:0">ACM uses source-system data and automation to test whether a control operated as designed. It runs continuously and across the full population, instead of sampling a handful of instances once a year. Failures surface in days instead of quarters, and control owners spend less time gathering evidence.</p>
+      <p class="intro">ACM uses source-system data and automation to test whether a control operated as designed. It runs continuously and across the full population, instead of sampling a handful of instances once a year. Failures surface in days instead of quarters, and control owners spend less time gathering evidence.</p>
       <ul class="list">
         <li>Tests run on a schedule against source-system data</li>
         <li>Every result is captured as audit-ready evidence</li>
         <li>Exceptions route straight to the control owner to resolve</li>
       </ul>
     </div>
-    <img class="figure" src="assets/img/overview.svg" alt="Source systems feed an automated control test; passes are logged as evidence and exceptions alert the owner.">
+    <figure class="figure">
+      <img src="assets/img/overview.svg" alt="Source systems feed an automated control test; passes are logged as evidence and exceptions alert the owner.">
+      <figcaption class="meta">How a control is tested</figcaption>
+    </figure>
   </div>
 </section>
+
+</main>
 
 <footer data-sites="Footer · Text box">
   <div class="wrap">

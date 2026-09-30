@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contacts · Automated Control Monitoring</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/sites-labels.js" defer></script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
 <header class="topbar" data-sites="Site header · Logo + site name · Top navigation">
   <div class="wrap">
-    <a class="brand" href="index.html"><span class="logo">LOGO</span><span>Automated Control Monitoring</span></a>
+    <a class="brand" href="index.html"><span class="logo" title="Replace with approved logo">ACM</span><span>Automated Control Monitoring</span></a>
     <nav class="nav">
       <a href="index.html">Home</a>
       <a href="control-owners.html">For Control Owners</a>
@@ -22,6 +23,8 @@
     </nav>
   </div>
 </header>
+
+<main id="main">
 
 <section class="hero compact" data-sites="Section · Background image (solid navy) · Text box">
   <div class="wrap">
@@ -33,12 +36,14 @@
 
 <section class="section" data-sites="Section · Default · 3 columns (Text box) + Divider + 2 columns (Image + Text box)">
   <div class="wrap">
+    <p class="meta group">People</p>
     <div class="grid cols-3">
-      <div class="card"><p class="meta">ETB lead</p><h3>[Name]</h3><p>Scope, timelines and onboarding schedule</p><a class="more" href="mailto:[email]">[email]</a></div>
-      <div class="card"><p class="meta">Engineering lead</p><h3>[Name]</h3><p>Test design, data sources and results</p><a class="more" href="mailto:[email]">[email]</a></div>
-      <div class="card"><p class="meta">Sponsor</p><h3>[Name]</h3><p>Escalations</p><a class="more" href="mailto:[email]">[email]</a></div>
+      <div class="card"><div class="avatar">[AB]</div><p class="meta">ETB lead</p><h3>[Name]</h3><p>Scope, timelines and onboarding schedule</p><a class="more email" href="mailto:[email]">[email]</a></div>
+      <div class="card"><div class="avatar">[AB]</div><p class="meta">Engineering lead</p><h3>[Name]</h3><p>Test design, data sources and results</p><a class="more email" href="mailto:[email]">[email]</a></div>
+      <div class="card"><div class="avatar">[AB]</div><p class="meta">Sponsor</p><h3>[Name]</h3><p>Escalations</p><a class="more email" href="mailto:[email]">[email]</a></div>
     </div>
-    <div class="grid cols-2" style="margin-top:56px">
+    <p class="meta group spaced">Channels</p>
+    <div class="grid cols-2">
       <div class="card">
         <img class="icon" src="assets/icons/chat.svg" alt="">
         <h3>Team channel</h3>
@@ -54,6 +59,8 @@
     </div>
   </div>
 </section>
+
+</main>
 
 <footer data-sites="Footer · Text box">
   <div class="wrap">

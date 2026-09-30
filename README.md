@@ -14,21 +14,28 @@ Text in `[brackets]` is placeholder content. Replace it with real details.
 | --- | --- |
 | Theme | Simple (or any clean sans-serif theme) |
 | Theme color | Custom `#004977` (Capital One navy) |
+| Fonts | Roboto: Title 700, Heading 700, Subheading 500, Normal 400 |
 | Header type | Title only (the navy hero is a section, not the header) |
 | Logo | Upload the approved logo from the internal brand portal |
 | Navigation | Top |
 
-Red (`#D03027`) appears only inside the icon and diagram images, since Sites themes don't allow a second text accent color.
+Red (`#D03027`) appears only in images (icons, diagram, and the short rule under each hero eyebrow), since Sites themes don't allow a second text accent color.
 
 ## Mapping mockup elements to Sites
 
-- **Navy hero**: new section, then *Change background* to a solid navy image (`#004977`), then a text box and a button.
+- **Navy hero**: new section, then *Change background* to `sites-uploads/hero-bg.png` (Home) or `hero-bg-compact.png` (other pages), then a text box and a button.
+- **Red rule under the eyebrow**: upload `sites-uploads/red-rule.png` as a small image directly under the eyebrow text.
+- **Logo**: `sites-uploads/logo-placeholder.png` until the approved logo is available.
+- **Avatars**: upload circle-cropped headshots above each name.
+- **Document links**: text links; `doc.png` can sit beside them as a small image if wanted.
 - **Gray sections**: section style *Emphasis 1*.
 - **Columns**: drag text boxes and images side by side within a section.
 - **Thin line above each column**: *Insert → Divider*.
 - **Icons and diagram**: upload the PNGs from `sites-uploads/`.
 - **FAQ**: *Insert → Collapsible text*.
 - **Dashboard ↗ menu item**: *Pages → + → Add link* pointing to the QuickSight dashboard.
+
+CSS marked `/* mockup only */` (hover/press states, the onboarding timeline rail, and the gray "Who · Your time" panels) has no Sites equivalent. The layout still reads fine without it.
 
 ## Page checklist
 
